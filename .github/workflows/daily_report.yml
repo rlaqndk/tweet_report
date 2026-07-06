@@ -1,0 +1,36 @@
+name: Daily RT Report
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 매일 22:00 UTC = 07:00 KST
+  workflow_dispatch:         # 수동 실행 버튼
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run report
+        env:
+          BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
+        run: python tweet_report.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f reports/
+          git diff --cached --quiet && echo "nothing to commit" && exit 0
+          git commit -m "report: $(date -u '+%Y-%m-%d') auto"
+          git push

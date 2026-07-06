@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-03",
+  "window": {
+    "start": "2026-05-02T07:00:00+09:00",
+    "end": "2026-05-03T07:00:00+09:00"
+  },
+  "username": "kkupuff",
+  "total": 3,
+  "tweets": [
+    {
+      "id": "2050370857764352305",
+      "text": "https://t.co/cmk6eB1PIC",
+      "time": "09:24",
+      "rt_at": "2026-05-02T09:24:41+09:00",
+      "entities": {
+        "urls": [
+          "http://x.com/i/article/2050127398889566208"
+        ]
+      },
+      "author": "kkupuff",
+      "sectors": [
+        "기타"
+      ]
+    },
+    {
+      "id": "2050370777489592439",
+      "text": "집 매수 타이밍 놓쳤다고 생각하시는 분들은 꼭 읽어보시면 좋습니다. https://t.co/wGse2hvndJ https://t.co/8T86MjtAut",
+      "time": "09:24",
+      "rt_at": "2026-05-02T09:24:22+09:00",
+      "entities": {
+        "urls": [
+          "https://x.com/aptlab/status/2050029074391933123/photo/1"
+        ]
+      },
+      "author": "kkupuff",
+      "sectors": [
+        "기타"
+      ]
+    },
+    {
+      "id": "2050368918091628788",
+      "text": "사람들이 Gemini가 구리다고 하는 건 보통 1층 챗봇 화면만 보고 판단하기 때문임. 지하실에 숨겨진 API Studio나 MCP 서버 연동 같은 개발자 도구들을 꺼내 쓰기 시작하면 완전히 다른 도구가 됨. 단순히 글 써주는 비서가 아니라 내 PC랑 외부 앱을 오가며 복잡한 연산을 수행하는 실행 주체로 https://t.co/UFc7BxvClT",
+      "time": "09:16",
+      "rt_at": "2026-05-02T09:16:58+09:00",
+      "entities": {},
+      "author": "kkupuff",
+      "sectors": [
+        "AI_소프트웨어"
+      ]
+    }
+  ],
+  "usernames": []
+}

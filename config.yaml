@@ -1,0 +1,32 @@
+bearer_token: "${BEARER_TOKEN}"  # set via env var or GitHub Actions secret
+
+usernames:
+  - kkupuff
+  - eyeofjaguar
+
+sectors:
+ 반도체_메모리: [하이닉스, SK하이닉스, 마이크론, Micron, HBM, DRAM, NAND,
+  샌디스크, SanDisk, MU]
+ 반도체_파운드리: [삼성전자, TSMC, TSM, 파운드리, foundry, 수율, yield, 4nm,
+  3nm, 2nm, GAA, CFET]
+ 반도체_팹리스: [NVDA, Nvidia, AMD, INTC, Intel, 엔비디아, 인텔, GPU, NPU,
+  ASIC, chip]
+ 반도체_소부장: [유리기판, 기판, substrate, 세메스, 한미반도체, 패키징,
+  packaging, 2.5D, 3D]
+ AI_소프트웨어: [GPT, OpenAI, Claude, Anthropic, Gemini, LLM, AGI, 딥마인드,
+  DeepMind, Codex]
+ AI_인프라: [데이터센터, data center, AIDC, GPU클러스터, 전력, 냉각, cooling,
+  rack]
+ 로보틱스: [휴머노이드, humanoid, Optimus, 로봇, robot, 두산로보틱스,
+  피지컬AI]
+ 바이오: [FDA, 임상, 바이오, MRNA, PFE, 신약, biotech, pharma]
+ 에너지: [원유, WTI, 정유, 태양광, LNG, SMR, 나프타, 석유화학, 에틸렌, oil,
+  energy]
+ 금융_매크로: [Fed, 연준, 금리, 인플레, 채권, 달러, rate, inflation, 워시,
+  의장]
+ 금융_국내: [코스피, 코스닥, 외국인, 수급, 환율, 외환, 국장]
+ 테크_플랫폼: [네이버, NAVER, 카카오, 라인, LINE, 소뱅, SoftBank]
+ 테크_글로벌: [AAPL, MSFT, GOOG, META, AMZN, Apple, Google, Microsoft]
+ 기업이슈: [물적분할, 노조, 파업, 상장, IPO, 자사주, 지분, M&A, 실적,
+  영업이익]
+ 기타: []
